@@ -1,2 +1,2 @@
 # JavaJourney
-Java temelleri üzerine kapsamlı bir öğrenim ve uygulama projesi
+A comprehensive learning and practicing project on Java fundamentals
