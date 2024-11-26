@@ -25,6 +25,12 @@ public class CalculatorApp {
 				System.out.println("Enter the operation: ");
 				operation = scanner.next();
 			}
+			catch (IllegalArgumentException e) {
+				System.out.println(e.getMessage());
+				System.out.println("Please try again..");
+				System.out.println("Enter the operation: ");
+				operation = scanner.next();
+			}
 			scanner.close();
 		}
 	}
