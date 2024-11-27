@@ -32,7 +32,7 @@ public class CalculatorApp {
 				System.out.println("Enter the operation: ");
 				operation = scanner.next();
 			}
-			scanner.close();
 		}
+		scanner.close();
 	}
 }
