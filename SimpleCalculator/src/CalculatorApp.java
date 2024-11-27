@@ -18,6 +18,7 @@ public class CalculatorApp {
 				ICalculator calculator = OperationFactory.getOperation(operation);
 				double result = calculator.calculate(number1, number2);
 				System.out.println("The result is: " + result);
+				 isValid = true;
 			}
 			catch (ArithmeticException e) {
 				System.out.println(e.getMessage());
